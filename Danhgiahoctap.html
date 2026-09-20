@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Đánh Giá Học Tập Sinh Viên ICTU</title>
+    <link rel="stylesheet" href="Danhgiahoctap.css">
+</head>
+<body>
+
+    <img src="https://cdn.haitrieu.com/wp-content/uploads/2022/11/Logo-ICTU-1024x1024.png" alt="Logo trường" class="logo-watermark">
+
+    <div class="card">
+        <h1>Hệ Thống Đánh Giá Học Tập Sinh Viên ICTU</h1>
+
+        <div class="form-group">
+            <label for="studentName">Họ tên sinh viên</label>
+            <input type="text" id="studentName" placeholder="Nhập họ tên sinh viên">
+        </div>
+
+        <div class="form-group">
+            <label for="score">Nhập điểm</label>
+            <input type="number" id="score" placeholder="Nhập điểm (0 - 10)" min="0" max="10">
+        </div>
+
+        <button id="danhgia">Xem kết quả</button>
+
+        <div id="hoctap" class="hoctap-box"></div>
+    </div>
+
+    <script src="Danhgiahoctap.js">D</script>
+
+</body>
+</html>
